@@ -33,43 +33,48 @@
                     </p>
                     <p>You know you want to.</p>
                 </section>
-                
+
                 <section id="form_sec2">
-                    <p>Let's do this!</p>
 
-                    <div class="left">
+                    <div class="form_fields">
 
-                        <label for="first_name">FIRST NAME
-                            <input type="text" name="first_name" id="first_name">
-                        </label>
+                        <aside class="left">
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" name="first_name" id="first_name">
+                            </div>
+                            <div>
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" placeholder="yourEmail@email.com">
+                            </div>
+                            <div>
+                                <label for="password">PASSWORD</label>
+                                <input type="text" name="password" id="password" placeholder="*****">
+                            </div>
 
-                        <label for="email">EMAIL
-                            <input type="email" name="email" id="email" placeholder="yourEmail@email.com" required>
-                        </label>
+                        </aside>
 
-                        <label for="password">PASSWORD
-                            <input type="text" name="password" id="password" placeholder="**...">
-                        </label>
+                        <aside class="right">
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" name="last_name" id="last_name">
+                            </div>
+
+                            <div>
+                                <label for="telephone">TELEPHONE</label>
+                                <input type="text" name="telephone" id="telephone" placeholder="681-123-4565"
+                                    pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                            </div>
+
+                            <div>
+                                <label for="password">PASSWORD</label>
+                                <input type="text" name="password" id="password" placeholder="*****">
+                            </div>
+                        </aside>
 
                     </div>
-
-                    <div class="right">
-
-                        <label for="last_name">LAST NAME
-                            <input type="text" name="last_name" id="last_name">
-                        </label>
-
-                        <label for="telephone">TELEPHONE
-                            <input type="text" name="telephone" id="telephone" placeholder="681-123-4565" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-                        </label>
-
-                        <label for="password">PASSWORD
-                            <input type="text" name="password" id="password" placeholder="**...">
-                        </label>
-
-                    </div>
-
                 </section>
+
                 <section id="form_sec3"></section>
             </form>
         </div>

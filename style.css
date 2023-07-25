@@ -1,4 +1,6 @@
 /*
+error color
+#e0113c
 
 logo >>
 
@@ -46,7 +48,7 @@ body {
 
 .sidebar>p {
     font-family: Gerhana;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1rem;
     position: relative;
     top: 95%;
@@ -55,7 +57,7 @@ body {
 }
 
 .sidebar>p>a {
-    color: rgb(233, 31, 31);
+    color: #00ccbb;
 }
 
 form {
@@ -74,22 +76,54 @@ section {
 
 #form_sec1,
 #form_sec3 {
-    background-color: rgba(19, 222, 230, 0.15);
+    background-color: #00ccbb;
 }
 
-#form_sec1 {
-    font-weight: 500;
-}
-
-#form_sec1>p:first-child {
+#form_sec1>p {
+    font-weight: 400;
+    color: #fff;
     margin-bottom: 2rem;
 }
 
 #form_sec2 {
-    display: flex;
-    justify-content: space-between;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
     text-align: left;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
+}
+
+.form_fields {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.3rem 6rem;
+}
+
+label {
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+input {
+    text-indent: 0.5rem;
+    border: 1px solid rgb(119, 136, 153);
+    border-radius: 7px;
+    height: 1.5rem;
+    margin-bottom: 0.4rem;
+    margin-top: 1.5rem;
+}
+
+input:hover {
+    background-color: rgb(127, 255, 212, 0.2);
+}
+
+/*use js for this
+input:focus {
+    border-color: rgb(0, 128, 255);
+}
+*/
+
+input:invalid {
+    border-color: #e0113c;
 }
