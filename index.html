@@ -14,13 +14,13 @@
 
             <aside class="sidebar">
                 <div id="logo_div">
-                    <img src="images/Blue-Monster.png" alt="cute fury blue fantasy monster">
-                    <p>Blue Monster image<a href=https://www.pngmart.com/image/52025 target="_blank">
-                        pngmart</a></p>
+                    <img id="logo_img" src="images/Blue-Monster.png" alt="cute fury blue fantasy monster">
                 </div>
+                <p id="logo_link">Blue Monster image<a href=https://www.pngmart.com/image/52025 target="_blank">
+                    pngmart</a></p>
 
                 <p>
-                    Photo by <a
+                    Background by <a
                         href="https://unsplash.com/@martz90?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin
                         Martz</a> on
                     <a
@@ -56,7 +56,7 @@
                                 <label for="password">PASSWORD</label>
                                 <input type="text" name="password" id="password" placeholder="*****">
                             </div>
-                            <p id="confirm_password">
+                            <p id="password_error_msg">
                                 *Passwords do not match!
                             </p>
                         </aside>
@@ -74,8 +74,8 @@
                             </div>
 
                             <div>
-                                <label for="password">CONFIRM PASSWORD</label>
-                                <input type="text" name="password" id="password" placeholder="*****">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="text" name="confirm_password" id="confirm_password" placeholder="*****">
                             </div>
                         </aside>
 
@@ -83,7 +83,7 @@
                 </section>
 
                 <section id="form_sec3">
-                    <button type="submit">Create Account</button>
+                    <button type="submit" id="submit">Create Account</button>
                     <p>Already have an account?
                         <a href="#">Log In</a>
                     </p>
@@ -91,10 +91,7 @@
             </form>
         </div>
     </main>
-
-    <script>
-
-    </script>
+<script src="script.js"></script>
 </body>
 
 </html>
