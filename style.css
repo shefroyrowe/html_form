@@ -1,0 +1,32 @@
+/*
+background image >>
+
+Photo by <a href="https://unsplash.com/@martz90?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Martz</a> on <a href="https://unsplash.com/photos/a-blue-abstract-background-with-wavy-shapes-P66DWe8AAbo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+logo >>
+
+<a href="https://www.freepik.com/free-vector/branding-identity-corporate-logo-vector-design-template_28755812.htm#query=logo&position=39&from_view=keyword&track=sph">Image by Rochak Shukla</a> on Freepik
+  */
+
+  :root {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: Aloevera;
+    src: url(fonts/Aloevera-OVoWO.ttf);
+  }
+
+  html,
+  body {
+    font-family: Aloevera,  -apple-system,
+                 BlinkMacSystemFont, "Segoe UI", Roboto, 
+                 Helvetica, Arial, sans-serif, "Apple Color Emoji",
+                 "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+  }
