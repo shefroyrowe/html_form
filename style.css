@@ -2,6 +2,9 @@
 error color
 #e0113c
 
+border color on focus
+rgb(0, 128, 255)
+
 logo >>
 
 <a href="https://www.freepik.com/free-vector/branding-identity-corporate-logo-vector-design-template_28755812.htm#query=logo&position=39&from_view=keyword&track=sph">Image by Rochak Shukla</a> on Freepik
@@ -71,21 +74,23 @@ form {
 
 section {
     height: 33.3%;
-    padding: 2.2rem;
 }
 
 #form_sec1,
 #form_sec3 {
     background-color: #00ccbb;
+    padding: 2.2rem 2.2rem 0rem 2.2rem;
 }
 
 #form_sec1>p {
     font-weight: 400;
     color: #fff;
     margin-bottom: 2rem;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
 }
 
 #form_sec2 {
+    position: relative;
     padding-top: 0.5rem;
     font-size: 0.9rem;
     text-align: left;
@@ -118,12 +123,37 @@ input:hover {
     background-color: rgb(127, 255, 212, 0.2);
 }
 
-/*use js for this
-input:focus {
-    border-color: rgb(0, 128, 255);
+#form_sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
 }
-*/
 
-input:invalid {
-    border-color: #e0113c;
+#form_sec3>button {
+    border: 1px solid rgb(119, 136, 153);
+    border-radius: 7px;
+    margin-bottom: 0.7rem;
+    height: 2.4rem;
+    width: 11rem;
+    background-color: aliceblue;
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.70);
+}
+
+#form_sec3>button:hover {
+    font-size: 1.1rem;
+    transform: translateY(4px);
+    color: #00a39e;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+#form_sec3>p>a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.6);
 }
